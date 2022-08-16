@@ -1,0 +1,292 @@
+.logo {
+  height: 70px;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(255, 255, 156);
+}
+
+.nav-bar {
+  background-color: black;
+}
+
+li,
+a,
+button {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: yellow;
+}
+
+button {
+  padding: 9px 25px;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 22px;
+}
+
+button:hover {
+  background-color: rgb(255, 179, 0);
+}
+
+.home {
+  margin: 20px 20px 0 0;
+}
+
+.img {
+  height: 250px;
+  float: left;
+  clear: left;
+  margin-left: 150px;
+  border: black 1px solid;
+  border-radius: 50px;
+}
+
+.name {
+  float: right;
+  padding-right: 750px;
+}
+
+#name {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.about-me {
+  background-color: rgb(0, 0, 0);
+  color: yellow;
+  padding: 8px;
+  font-size: 20px;
+  margin-top: 7cm;
+  border-radius: 10px;
+}
+
+.about-me h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-me p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: cm;
+}
+
+#about-me {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 28px;
+}
+
+.img-bbms {
+  height: 200px;
+}
+
+.projects {
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.projects p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#projects {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 26px;
+}
+
+.role p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.portfolio {
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#portfolio {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 26px;
+}
+
+.dashboard {
+  display: flex;
+}
+
+svg {
+  width: 114px;
+  height: 114px;
+  margin: 1em;
+}
+
+.bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #1a2c34;
+}
+
+[class^="meter-"] {
+  fill: none;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.meter-1 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 100;
+  stroke: aqua;
+  animation: progress-1 1s ease-out;
+}
+.meter-2 {
+  stroke: lime;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 160;
+  animation: progress-2 0.75s ease-out;
+}
+.meter-3 {
+  stroke: magenta;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 250;
+  animation: progress-3 0.5s ease-out;
+}
+
+@keyframes progress-1 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes progress-2 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 160;
+  }
+}
+
+@keyframes progress-3 {
+  from {
+    stroke-dashoffset: 360;
+  }
+  to {
+    stroke-dashoffset: 250;
+  }
+}
+
+.edu {
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#edu {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 28px;
+}
+
+.edu-box1 {
+  background-color: yellow;
+  color: black;
+  margin-right: 1100px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.edu-box2 {
+  background-color: yellow;
+  color: black;
+  margin-right: 1070px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.edu-box3 {
+  background-color: yellow;
+  color: black;
+  margin-right: 1100px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#contact-me {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 28px;
+}
+
+.email {
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.a {
+  color: blue;
+}
